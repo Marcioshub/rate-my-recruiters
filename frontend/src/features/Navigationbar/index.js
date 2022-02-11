@@ -83,8 +83,10 @@ export default function WithSubnavigation() {
                 fontSize={"sm"}
                 fontWeight={400}
                 variant={"link"}
-                href={"#"}
-                onClick={() => navigate("/login")}
+                as={ReachLink}
+                to="/login"
+                // href={"#"}
+                // onClick={() => navigate("/login")}
               >
                 Login
               </Button>
@@ -98,7 +100,9 @@ export default function WithSubnavigation() {
                 _hover={{
                   bg: "pink.300",
                 }}
-                onClick={() => navigate("/register")}
+                as={ReachLink}
+                to="/register"
+                // onClick={() => navigate("/register")}
               >
                 Register
               </Button>

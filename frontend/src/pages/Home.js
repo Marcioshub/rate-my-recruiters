@@ -45,7 +45,7 @@ export default function Home() {
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: "3xl", md: "4xl" })}
           >
-            Had a good or good experince with a companies recuriment process?
+            Had a good or good experince with a companies recruitment process?
             Register below and post your exprience!
           </Text>
           <Stack direction={"row"}>

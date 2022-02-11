@@ -51,7 +51,7 @@ export default function WithSubnavigation() {
             as={ReachLink}
             to="/"
           >
-            Rate My Recuriters
+            Rate My Recruiters
           </Link>
         </Flex>
 
